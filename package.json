@@ -30,5 +30,13 @@
   },
   "files": [
     "dist/**"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Centaurea/vue3-carousel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Centaurea/vue3-carousel/issues"
+  },
+  "homepage": "https://github.com/Centaurea/vue3-carousel#readme"
 }

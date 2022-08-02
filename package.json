@@ -1,13 +1,8 @@
 {
   "name": "@centaurea/vue3-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1a",
   "description": "vue-carousel for vue3",
-  "main": "dist/vue3-carousel.js",
-  "module": "dist/vue3-carousel.mjs",
-  "scripts": {
-    "build": "rollup -c",
-    "prepublishOnly": "npm run build"
-  },
+  "main": "index.js",
   "keywords": [
     "vue",
     "vuejs",
@@ -21,15 +16,10 @@
   "peerDependencies": {
     "vue": "^3.0.0"
   },
-  "devDependencies": {
-    "rollup": "^2.77.2",
-    "rollup-plugin-import-css": "^3.0.3",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-vue": "^6.0.0",
-    "@vue/compiler-sfc": "^3.2.37"
-  },
   "files": [
-    "dist/**"
+    "src/*",
+    "*.json",
+    "*.md"
   ],
   "repository": {
     "type": "git",

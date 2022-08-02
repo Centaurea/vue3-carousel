@@ -36,8 +36,5 @@ node_modules
 # Samples
 samples
 
-# Bundle files
-src
-
 # Bundle scripts
 gulpfile.js

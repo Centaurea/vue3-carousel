@@ -1,6 +1,6 @@
 # vue3-carousel
 
-carousel for vue 3
+[vue-carousel](https://github.com/SSENSE/vue-carousel) fork upgraded to vue3
 
 ## Installation
 ```
@@ -10,9 +10,10 @@ npm install @centaurea/vue3-carousel
 ## Get started
 
 ```javascript
-import VueCarousel from '@centaurea/vue3-carousel';
+import {Carousel, Slide} from '@centaurea/vue3-carousel';
 
-app.use(VueCarousel)
+app.component('carousel', Carousel);
+app.component('slide', Slide);
 ```
 
 ## Example

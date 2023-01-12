@@ -1,6 +1,6 @@
 {
   "name": "@centaurea/vue3-carousel",
-  "version": "1.0.1a",
+  "version": "1.0.2",
   "description": "vue-carousel for vue3",
   "main": "index.js",
   "keywords": [
